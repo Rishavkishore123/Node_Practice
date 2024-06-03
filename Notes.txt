@@ -1,0 +1,4 @@
+// Important Notes
+Node js is a async or sync language
+
+Ans-> It is a async language. 

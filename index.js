@@ -11,5 +11,10 @@
 // })
 // console.log(result);
 
-const color=require('colors')
-console.log("package.json".red)
+// const color=require('colors')
+// console.log("package.json".red)
+
+// const chalk= require('chalk');
+
+// console.log(chalk.red("Rishav"));
+
