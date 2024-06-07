@@ -2,3 +2,6 @@
 Node js is a async or sync language
 
 Ans-> It is a async language. 
+
+It is not necessary ki req aur response saath chle ek hi tym pe.... 
+request client bhjta h server me aur server respnose krta h ..
