@@ -5,3 +5,7 @@ Ans-> It is a async language.
 
 It is not necessary ki req aur response saath chle ek hi tym pe.... 
 request client bhjta h server me aur server respnose krta h ..
+
+
+middlle ware= request yaa response ke under kchh changes krna h wha pe apan middleware use krte h 
+for example:- koi country hamko apna website restrict krna ho wha pe apan middleware use krte h 
