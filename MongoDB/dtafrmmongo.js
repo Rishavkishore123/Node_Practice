@@ -8,11 +8,11 @@ const client=new MongoClient(url);
 async function getdata(){
     let result=await client.connect();
     let db=result.db(databases);
-    let collections= db.collection('products');
-    let response=  await collections.find({}).toArray();
-    console.log("mongodb connected");
-    console.log(response);
+    return db.collection('products');
+    // let response=  await collections.find({}).toArray();
+    // console.log("mongodb connected");
+    // console.log(response);
   
 }
 
-getdata();
+module.exports=getdata;

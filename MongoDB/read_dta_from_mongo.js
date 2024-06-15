@@ -3,7 +3,7 @@ const dbConnect=require('./data_database');
 const main=async ()=>{
     let data=await dbConnect();
     console.log('db connected')
-    data=await data.find({"name":"Rishav"}).toArray();
+    data=await data.find({}).toArray();
     console.log (data);
 }
 main();
