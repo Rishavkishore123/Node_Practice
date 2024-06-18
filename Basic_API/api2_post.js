@@ -12,7 +12,7 @@ app.get('/',async (req,resp)=>{
    resp.send(result);
 })
 
-app.put('/', async (req,resp)=>{
+app.post('/', async (req,resp)=>{
     let db=await database();
     let data=await db.insertOne(req.body);
     resp.send(data);
